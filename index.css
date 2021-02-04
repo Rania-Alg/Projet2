@@ -1,0 +1,496 @@
+.html{
+    1.15
+}
+.body{
+    margin-left: 20px;
+    font-family: "Raleway", "Sans serif";
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+    max-width: 1440px;
+}
+.headernav{
+    margin-left: 700px;
+    cursor: pointer;
+}
+.lienheader{
+    padding:2rem;
+   
+    font-weight: 500;
+    text-align: center;
+    transition-duration: 0.1s;
+    border-top: 3px transparent solid;
+    border-bottom: 3px transparent solid;
+    
+}
+.hoverheader :hover{
+    border-top: 3px blue;
+
+}
+.inscriptionheader{
+    text-decoration-line: none;
+    color: blue;
+}
+.lienheader {
+    border-top: 3px solid #0065FC;
+}
+
+.headerimg{
+    width: 100px;
+    
+}
+   .titrepage {
+       margin-left: 20px;
+
+   }
+   
+   
+
+
+.mainformulaire{
+    display: flex;
+
+   margin-bottom: 20px;
+   margin-left: 20px;
+   align-content: center;
+   margin-bottom: 30px ;
+
+   
+   
+}
+.mainformulaire i{
+
+  
+    background-color: #F2F2F2;
+    width: 50px;
+    height: 25px;
+  
+  border-radius:1rem 00 0rem;
+  text-align: center;
+ padding-top: 15px;
+ 
+ 
+ }
+ input{
+   
+    border-color: #F2F2F2;
+    border: 2px solid #F2F2F2;
+    
+    }
+    .searchformulaire{
+        
+            background-color:
+             #0066ff;
+            color:
+             white;
+          width: 
+          100px;
+          height: 30px;
+            font-size:
+             12px;
+            border-bottom-right-radius: 
+            5px ;
+            text-align:center;
+            padding-top: 10px;
+         
+        }
+    
+         
+     
+     .blocfiltre {
+        display: flex;
+        align-items: center;
+        margin-right: 2rem;
+        border: 2px solid #d9d9d9;
+        border-radius: 2rem;
+        margin-bottom: 1rem;
+        cursor: pointer;
+        transition-duration: 0.1s;
+        font-weight: bold;
+
+  
+   
+    padding-right: 30px;
+    padding-left: 60px;
+}
+    
+      .rechercheparfiltre{
+          display: flex;
+      }
+    .nomtypefiltre{
+        margin-left: 20px;
+    }
+
+      .logofiltre{
+        background-color: #DEEBFF;
+    border-radius: 50%;
+    width: 51px;
+    height: 51px;
+    color: blue;
+    line-height: 50px;
+   text-align: center;
+   margin-left: -60px;
+      }
+    .blocfiltre:hover{
+        
+        background-color: blue;
+    }
+   .titrefiltre{
+        margin-right: 40px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    .informationsousmenu {
+      display: inline-flex;
+       
+    }
+    
+    .logoinformationsousmenu{
+     margin-left: 20px;
+     display: inline-block;
+     margin-right: 20px;
+     padding-bottom: 30px;
+   
+   } 
+
+   .conteneurmarseille{
+    width:700px ;
+    height:500px;
+     background-color:#F2F2F2;
+     border: 2px solid  #F2F2F2;
+    
+         margin-top: 50px;
+         display: flex;
+         flex-wrap: wrap;
+        padding:30px;
+        align-items: center;
+        text-align: center;
+         margin-right: 0%;
+        align-self: center;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        
+    
+      }
+
+            
+      .conteneurhebergement{
+        background-color: white;
+        padding:0.375rem;
+        border-radius: 1.25rem;
+        box-shadow: 0 0 16px #0000002e;
+        transition-duration: 0.1s;
+        cursor: pointer;
+        box-sizing: border-box;
+        height:200px;
+        width: 180px;
+    
+        margin-left: 10px;
+        margin-right: 30px;
+        margin-top: 40px;
+        padding-right: 50px;
+        padding-bottom: 30px;
+        
+    
+        }
+        .conteneurhebergement:hover{
+            -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+        }
+        .fondimg{
+            margin-left: 0px;
+            margin-top: 0;
+            align-content: center;
+            text-align: center;
+            margin-right: 20px;
+
+        }
+    
+
+  .imghebergement{
+ width:165px ;
+ height:100px ;
+  border-radius:1rem 1rem 0 0 ;
+  margin-top: 5px;
+  margin-top: 0%;
+  
+}
+
+.conteneurimg{
+    width:165px ;
+    height:100px;
+     border-radius:1rem 1rem 0 0 ;
+     margin-top: 5px;
+     margin-top: 0;
+     margin-left: 0px;
+     padding-bottom: 20px;
+   }
+
+   .conteneurhebergement a{
+    font-size: 10px;
+    text-decoration-line: none;
+    margin-top: ;
+    
+    }
+    .infosousconteneur1 a {
+        text-decoration-line:none;
+     
+    padding-bottom: 20px;
+       color: black;
+       font-weight:bold;
+       font-size: 12px;
+     
+    }
+
+    .conteneur2aside a  {
+        text-decoration-line: none;
+    
+     
+        font-size: 14px;
+    }
+       .conteneur2aside p{
+margin-top: 5px;
+
+       }
+       .conteneur2aside:hover{
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+    
+       .conteneur2aside {
+
+        background-color: white;
+           padding: 0.375rem;
+            border-radius: 1.25rem;
+            box-shadow: 0 0 16px #0000002e;
+            transition-duration: 0.1s;
+            cursor: pointer;
+            box-sizing: border-box;
+            height:120px;
+            width: 340px;
+            margin-left: 20px;
+     
+            margin-bottom: 40px;
+
+            
+            
+        
+            
+        }
+
+       .conteneuraside{
+
+        width:400px ;
+       height:500px;
+       background-color:#F2F2F2;
+        border: 2px solid #F2F2F2;  
+        
+           position: absolute;
+          left: 850px;
+          top: 30.5rem;
+          padding-top: 60px;
+       display: flex;
+       flex-direction: column;
+
+      margin-left: 0px;
+      
+     margin-top: -40px;
+      
+       }
+        .conteneuraside h1{
+            margin-top: -30px;
+            font-size: 18px;
+            font-size: bold;
+
+        }
+        
+       .imgaside{
+        width:120px ;
+        height:110px ;
+       border-radius:1rem 0 0 1rem ;
+       margin-top: 0px;
+       margin-left: 0px;
+       margin-right: 60px;
+       
+      
+    }
+
+    .fondimg{
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+    }
+    
+   .imgaside1{
+    width:120px ;
+    height:110px ;
+   border-radius:1rem 0 0 1rem ;
+   margin-top: 0px;
+   margin-left: 0px;
+   margin-right: 60px;
+   }
+   img{
+
+    object-fit: cover;
+}
+
+
+
+         .rate {
+
+         color: #0065FC ;
+         margin-top: -5px;
+        margin-left: -30px;
+ margin-top:-10px;
+text-align: left;
+         }
+         
+         .nomhotelhebergement{
+             font-size: 16px;
+         margin-left: -20px;
+         font-size: bold;
+
+         }
+         .prixhotelhebergement{
+             margin-left: -20px;
+
+         }
+         .hebergementmarseille h1 {
+            position: relative;
+            top: 100px;
+            left: 80px;
+            font-size: 16px;
+        }
+
+        .nomhotelmarseille{
+         font-size: 16px;
+         
+         
+        }
+        .prixhotelmarseille{
+            margin-top: -10px;
+            font-size: 14px;
+        }
+        
+        .ratemarseille{
+           color: #0065FC;
+           margin-top: -5px;
+           text-align: center;
+        }
+        .activitesmarseilletitre{
+            margin-left: 35px;
+            
+        }
+
+         .activitemarseille{
+           
+          margin-top: 20px;
+           display: flex;
+
+       
+        
+     }
+     
+         
+         
+
+
+        .imggrdformat{
+            
+                height: 250px;
+                width: 200px;
+                border-radius: 1rem 1rem 0 0;
+                align-items:center;
+              
+             }
+             .imggrdformat:hover{
+                -webkit-transform: scale(1.3);
+                transform: scale(1.3);
+            }
+             
+        .imgpetitformat{
+        
+                height: 100px;
+                width: 200px;
+               align-items: center;
+                border-radius:1rem 1rem 0 0 ;
+                object-fit: cover;
+                
+               }
+               .imgpetitformat:hover{
+                -webkit-transform: scale(1.3);
+                transform: scale(1.3);
+            }
+               }
+
+               .conteneurgrdformat{
+                background-color: white;
+                border-radius: 1.25rem;
+                box-shadow: 0 4px 2px -2px  #0000002e;
+                transition-duration: 0.1s;
+                cursor: pointer;
+                box-sizing: border-box;
+                
+                height: 50px;
+
+              
+              }
+          
+              
+              .conteneurpetitformat{
+                
+                    background-color: white;
+                    border-radius: 1.25rem;
+                    box-shadow: 0 4px 2px -2px  #0000002e;
+                    transition-duration: 0.1s;
+                    cursor: pointer;
+                    box-sizing: border-box;
+                    height: 40px;
+                    
+                   
+                    
+                    
+                   }
+                 
+                   
+         .conteneurfooter{
+             
+            width:100%;
+            height:430px;
+            background-color:#F2F2F2;
+            border: 2px solid #F2F2F2;
+            margin-left:0px;
+            display: flex;
+           justify-content:space-around;
+        
+            margin-top: 40px;
+
+            
+
+         }
+
+
+            .conteneurfooter li{
+
+             list-style-type: none;
+          
+             }
+           .titrefooter{
+            font-size: 16px;
+            font-weight:bold;
+            
+        
+           }
+           .footer{
+            margin-left: 20px;
+           }
+       
+           .gauchefooter{
+               text-align: left;
+           }
